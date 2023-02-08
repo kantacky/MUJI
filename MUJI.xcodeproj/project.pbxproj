@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10ABAA629743CCD00B37213 /* StoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10ABAA529743CCD00B37213 /* StoreListView.swift */; };
+		F10ABAA829743DCC00B37213 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10ABAA729743DCC00B37213 /* MapView.swift */; };
+		F11A412B296ADB0F001EBB4E /* MUJIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A412A296ADB0F001EBB4E /* MUJIApp.swift */; };
+		F11A412D296ADB0F001EBB4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A412C296ADB0F001EBB4E /* ContentView.swift */; };
+		F11A412F296ADB10001EBB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11A412E296ADB10001EBB4E /* Assets.xcassets */; };
+		F11A4133296ADB10001EBB4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11A4132296ADB10001EBB4E /* Preview Assets.xcassets */; };
+		F11A413D296ADB10001EBB4E /* MUJITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A413C296ADB10001EBB4E /* MUJITests.swift */; };
+		F11A4147296ADB10001EBB4E /* MUJIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A4146296ADB10001EBB4E /* MUJIUITests.swift */; };
+		F11A4149296ADB10001EBB4E /* MUJIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11A4148296ADB10001EBB4E /* MUJIUITestsLaunchTests.swift */; };
+		F1556EE1298E81C300980A0C /* MUJI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1556EE0298E81C300980A0C /* MUJI.swift */; };
+		F184F5E829939D750015BE3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F184F5EA29939D750015BE3F /* Localizable.strings */; };
+		F184F5ED29939DF50015BE3F /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184F5EC29939DF50015BE3F /* StoreDetailView.swift */; };
+		F184F5EF2993A2060015BE3F /* SmallMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184F5EE2993A2050015BE3F /* SmallMapView.swift */; };
+		F184F5F12993A5B30015BE3F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184F5F02993A5B30015BE3F /* Map.swift */; };
+		F184F5F32993BD230015BE3F /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184F5F22993BD230015BE3F /* FilterView.swift */; };
+		F184F5F92993D2D10015BE3F /* EnvironmentVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F184F5F82993D2D10015BE3F /* EnvironmentVariables.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F11A4139296ADB10001EBB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F11A411F296ADB0F001EBB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11A4126296ADB0F001EBB4E;
+			remoteInfo = BuLoPersonalTask;
+		};
+		F11A4143296ADB10001EBB4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F11A411F296ADB0F001EBB4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F11A4126296ADB0F001EBB4E;
+			remoteInfo = BuLoPersonalTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10ABAA529743CCD00B37213 /* StoreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListView.swift; sourceTree = "<group>"; };
+		F10ABAA729743DCC00B37213 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F11A4127296ADB0F001EBB4E /* MUJI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUJI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11A412A296ADB0F001EBB4E /* MUJIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUJIApp.swift; sourceTree = "<group>"; };
+		F11A412C296ADB0F001EBB4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F11A412E296ADB10001EBB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F11A4130296ADB10001EBB4E /* MUJI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MUJI.entitlements; sourceTree = "<group>"; };
+		F11A4132296ADB10001EBB4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F11A4138296ADB10001EBB4E /* MUJITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MUJITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11A413C296ADB10001EBB4E /* MUJITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUJITests.swift; sourceTree = "<group>"; };
+		F11A4142296ADB10001EBB4E /* MUJIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MUJIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11A4146296ADB10001EBB4E /* MUJIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUJIUITests.swift; sourceTree = "<group>"; };
+		F11A4148296ADB10001EBB4E /* MUJIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUJIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1556EE0298E81C300980A0C /* MUJI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUJI.swift; sourceTree = "<group>"; };
+		F184F5EB29939DBC0015BE3F /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F184F5EC29939DF50015BE3F /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		F184F5EE2993A2050015BE3F /* SmallMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallMapView.swift; sourceTree = "<group>"; };
+		F184F5F02993A5B30015BE3F /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		F184F5F22993BD230015BE3F /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		F184F5F82993D2D10015BE3F /* EnvironmentVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVariables.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11A4124296ADB0F001EBB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11A4135296ADB10001EBB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11A413F296ADB10001EBB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10ABAA229743C8D00B37213 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F11A412C296ADB0F001EBB4E /* ContentView.swift */,
+				F10ABAA529743CCD00B37213 /* StoreListView.swift */,
+				F184F5EC29939DF50015BE3F /* StoreDetailView.swift */,
+				F10ABAA729743DCC00B37213 /* MapView.swift */,
+				F184F5EE2993A2050015BE3F /* SmallMapView.swift */,
+				F184F5F22993BD230015BE3F /* FilterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F10ABAA329743C9300B37213 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1556EE0298E81C300980A0C /* MUJI.swift */,
+				F184F5F02993A5B30015BE3F /* Map.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F11A411E296ADB0F001EBB4E = {
+			isa = PBXGroup;
+			children = (
+				F11A4129296ADB0F001EBB4E /* MUJI */,
+				F11A413B296ADB10001EBB4E /* MUJITests */,
+				F11A4145296ADB10001EBB4E /* MUJIUITests */,
+				F11A4128296ADB0F001EBB4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11A4128296ADB0F001EBB4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11A4127296ADB0F001EBB4E /* MUJI.app */,
+				F11A4138296ADB10001EBB4E /* MUJITests.xctest */,
+				F11A4142296ADB10001EBB4E /* MUJIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11A4129296ADB0F001EBB4E /* MUJI */ = {
+			isa = PBXGroup;
+			children = (
+				F11A412A296ADB0F001EBB4E /* MUJIApp.swift */,
+				F10ABAA229743C8D00B37213 /* Views */,
+				F10ABAA329743C9300B37213 /* Models */,
+				F11A412E296ADB10001EBB4E /* Assets.xcassets */,
+				F11A4130296ADB10001EBB4E /* MUJI.entitlements */,
+				F11A4131296ADB10001EBB4E /* Preview Content */,
+				F184F5EA29939D750015BE3F /* Localizable.strings */,
+				F184F5F82993D2D10015BE3F /* EnvironmentVariables.swift */,
+			);
+			path = MUJI;
+			sourceTree = "<group>";
+		};
+		F11A4131296ADB10001EBB4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F11A4132296ADB10001EBB4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F11A413B296ADB10001EBB4E /* MUJITests */ = {
+			isa = PBXGroup;
+			children = (
+				F11A413C296ADB10001EBB4E /* MUJITests.swift */,
+			);
+			path = MUJITests;
+			sourceTree = "<group>";
+		};
+		F11A4145296ADB10001EBB4E /* MUJIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F11A4146296ADB10001EBB4E /* MUJIUITests.swift */,
+				F11A4148296ADB10001EBB4E /* MUJIUITestsLaunchTests.swift */,
+			);
+			path = MUJIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11A4126296ADB0F001EBB4E /* MUJI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11A414C296ADB10001EBB4E /* Build configuration list for PBXNativeTarget "MUJI" */;
+			buildPhases = (
+				F11A4123296ADB0F001EBB4E /* Sources */,
+				F11A4124296ADB0F001EBB4E /* Frameworks */,
+				F11A4125296ADB0F001EBB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MUJI;
+			productName = BuLoPersonalTask;
+			productReference = F11A4127296ADB0F001EBB4E /* MUJI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F11A4137296ADB10001EBB4E /* MUJITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11A414F296ADB10001EBB4E /* Build configuration list for PBXNativeTarget "MUJITests" */;
+			buildPhases = (
+				F11A4134296ADB10001EBB4E /* Sources */,
+				F11A4135296ADB10001EBB4E /* Frameworks */,
+				F11A4136296ADB10001EBB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11A413A296ADB10001EBB4E /* PBXTargetDependency */,
+			);
+			name = MUJITests;
+			productName = BuLoPersonalTaskTests;
+			productReference = F11A4138296ADB10001EBB4E /* MUJITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F11A4141296ADB10001EBB4E /* MUJIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11A4152296ADB10001EBB4E /* Build configuration list for PBXNativeTarget "MUJIUITests" */;
+			buildPhases = (
+				F11A413E296ADB10001EBB4E /* Sources */,
+				F11A413F296ADB10001EBB4E /* Frameworks */,
+				F11A4140296ADB10001EBB4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11A4144296ADB10001EBB4E /* PBXTargetDependency */,
+			);
+			name = MUJIUITests;
+			productName = BuLoPersonalTaskUITests;
+			productReference = F11A4142296ADB10001EBB4E /* MUJIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11A411F296ADB0F001EBB4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F11A4126296ADB0F001EBB4E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F11A4137296ADB10001EBB4E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F11A4126296ADB0F001EBB4E;
+					};
+					F11A4141296ADB10001EBB4E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F11A4126296ADB0F001EBB4E;
+					};
+				};
+			};
+			buildConfigurationList = F11A4122296ADB0F001EBB4E /* Build configuration list for PBXProject "MUJI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = F11A411E296ADB0F001EBB4E;
+			productRefGroup = F11A4128296ADB0F001EBB4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11A4126296ADB0F001EBB4E /* MUJI */,
+				F11A4137296ADB10001EBB4E /* MUJITests */,
+				F11A4141296ADB10001EBB4E /* MUJIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11A4125296ADB0F001EBB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11A4133296ADB10001EBB4E /* Preview Assets.xcassets in Resources */,
+				F184F5E829939D750015BE3F /* Localizable.strings in Resources */,
+				F11A412F296ADB10001EBB4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11A4136296ADB10001EBB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11A4140296ADB10001EBB4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11A4123296ADB0F001EBB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10ABAA629743CCD00B37213 /* StoreListView.swift in Sources */,
+				F184F5ED29939DF50015BE3F /* StoreDetailView.swift in Sources */,
+				F184F5F12993A5B30015BE3F /* Map.swift in Sources */,
+				F184F5F92993D2D10015BE3F /* EnvironmentVariables.swift in Sources */,
+				F10ABAA829743DCC00B37213 /* MapView.swift in Sources */,
+				F184F5F32993BD230015BE3F /* FilterView.swift in Sources */,
+				F184F5EF2993A2060015BE3F /* SmallMapView.swift in Sources */,
+				F1556EE1298E81C300980A0C /* MUJI.swift in Sources */,
+				F11A412D296ADB0F001EBB4E /* ContentView.swift in Sources */,
+				F11A412B296ADB0F001EBB4E /* MUJIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11A4134296ADB10001EBB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11A413D296ADB10001EBB4E /* MUJITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F11A413E296ADB10001EBB4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11A4147296ADB10001EBB4E /* MUJIUITests.swift in Sources */,
+				F11A4149296ADB10001EBB4E /* MUJIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F11A413A296ADB10001EBB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11A4126296ADB0F001EBB4E /* MUJI */;
+			targetProxy = F11A4139296ADB10001EBB4E /* PBXContainerItemProxy */;
+		};
+		F11A4144296ADB10001EBB4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F11A4126296ADB0F001EBB4E /* MUJI */;
+			targetProxy = F11A4143296ADB10001EBB4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F184F5EA29939D750015BE3F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F184F5EB29939DBC0015BE3F /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11A414A296ADB10001EBB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F11A414B296ADB10001EBB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F11A414D296ADB10001EBB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MUJI/MUJI.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MUJI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your current location";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.MUJI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		F11A414E296ADB10001EBB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MUJI/MUJI.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MUJI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show your current location";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.MUJI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		F11A4150296ADB10001EBB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.BuLoPersonalTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MUJI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MUJI";
+			};
+			name = Debug;
+		};
+		F11A4151296ADB10001EBB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.BuLoPersonalTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MUJI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MUJI";
+			};
+			name = Release;
+		};
+		F11A4153296ADB10001EBB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.BuLoPersonalTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuLoPersonalTask;
+			};
+			name = Debug;
+		};
+		F11A4154296ADB10001EBB4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kantacky.BuLoPersonalTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuLoPersonalTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11A4122296ADB0F001EBB4E /* Build configuration list for PBXProject "MUJI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11A414A296ADB10001EBB4E /* Debug */,
+				F11A414B296ADB10001EBB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11A414C296ADB10001EBB4E /* Build configuration list for PBXNativeTarget "MUJI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11A414D296ADB10001EBB4E /* Debug */,
+				F11A414E296ADB10001EBB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11A414F296ADB10001EBB4E /* Build configuration list for PBXNativeTarget "MUJITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11A4150296ADB10001EBB4E /* Debug */,
+				F11A4151296ADB10001EBB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11A4152296ADB10001EBB4E /* Build configuration list for PBXNativeTarget "MUJIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11A4153296ADB10001EBB4E /* Debug */,
+				F11A4154296ADB10001EBB4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11A411F296ADB0F001EBB4E /* Project object */;
+}
